@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-url = 'mongodb://localhost:27017/order_products';
+url = 'mongodb+srv://jadhavramdas466:UoWFm2JcFOyqE5Cx@cluster0.3htr6.mongodb.net/nodejs-db';
 
 mongoose.connect(url).then(()=>{
 console.log('mongodb connected successfully')
